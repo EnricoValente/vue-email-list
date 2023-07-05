@@ -24,7 +24,7 @@ createApp({
             .then((response) => {
                 const result= response.data;
                 this.emails.push({
-                   text:response.data.response 
+                   text:response.data.response    
                 })
                 
             })
